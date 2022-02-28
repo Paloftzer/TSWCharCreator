@@ -7,30 +7,47 @@ def MainMenu():
     print("-"*72)
     print()
     print()
-    print("1 - Generate a Characters Physical Strength")
-    print("2 - Generate a Characters Attack Potency/Destructive Capacity")
-    print("3 - Generate a Characters Durability")
-    print("4 - Generate a Characters Movement Speed")
-    print("5 - Generate a Characters Reaction Speed")
-    print("6 - Generate a Characters Intelligence")
+    print("1 - Generate a custom or random amount of Abilities")
+    print("2 - Generate a Characters Physical Strength")
+    print("3 - Generate a Characters Attack Potency/Destructive Capacity")
+    print("4 - Generate a Characters Durability")
+    print("5 - Generate a Characters Movement Speed")
+    print("6 - Generate a Characters Reaction Speed")
+    print("7 - Generate a Characters Intelligence")
     choice = input("Which option would you like to choose? ")
     if choice == "1":
-        RandomizeStrength()
+        RandomizeAbilities()
     elif choice == "2":
-        RandomizeDestruction()
+        RandomizeStrength()
     elif choice == "3":
-        RandomizeDurability()
+        RandomizeDestruction()
     elif choice == "4":
-        RandomizeMoveSpeed()
+        RandomizeDurability()
     elif choice == "5":
-        RandomizeReactionSpeed()
+        RandomizeMoveSpeed()
     elif choice == "6":
+        RandomizeReactionSpeed()
+    elif choice == "7":
         RandomizeIntelligence()
     else:
         print("Incorrect choice, try again!")
         time.sleep(1)
         MainMenu()
 
+def RandomizeAbilities():
+    NumberOfAbilities = int(input("How many abilities do you want your character to have? (1-100, leave 0 for random) "))
+    if NumberOfAbilities == "0":
+        NumberOfAbilities = random.randint(0,101)
+    GeneratedAbilities = 0
+    while GeneratedAbilities < NumberOfAbilities:
+        AbilitiesDictionary = open("Abilities.txt", "r")
+        Abilities = AbilitiesDictionary.read()
+        ListOfTiers = Abilities.split(",")
+        RandomizedAbility = random.choice(ListOfTiers)
+        print("Your character's Ability is: ", RandomizedAbility)
+        GeneratedAbilities += 1
+    time.sleep(5)
+    MainMenu()
 
 def RandomizeStrength():
     StrengthTiersDictionary = open("Strength Tiers.txt", "r")
