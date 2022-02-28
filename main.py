@@ -36,7 +36,7 @@ def MainMenu():
 
 def RandomizeAbilities():
     NumberOfAbilities = int(input("How many abilities do you want your character to have? (1-100, leave 0 for random) "))
-    if NumberOfAbilities == "0":
+    if NumberOfAbilities == 0:
         NumberOfAbilities = random.randint(0,101)
     GeneratedAbilities = 0
     while GeneratedAbilities < NumberOfAbilities:
