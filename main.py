@@ -87,7 +87,7 @@ def NameCharacter():
 def RandomizeAbilities():
     global GeneratedAbilitiesList
     GeneratedAbilitiesList = []
-    NumberOfAbilities = int(input(" How many abilities do you want your character to have? (1-100, leave 0 for random) "))
+    NumberOfAbilities = int(input(" How many abilities do you want your character to have? (1-100, leave 0 for random (random is capped at 15 abilities)) "))
     if NumberOfAbilities == 0:
         NumberOfAbilities = random.randint(1,15)
     elif NumberOfAbilities < 0:
