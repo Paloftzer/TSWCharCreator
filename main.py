@@ -1,5 +1,6 @@
 import random
 import time
+import msvcrt as m
 
 def MainMenu():
     print("","-"*72)
@@ -30,6 +31,10 @@ def MainMenu():
     print(" 11 - Generate a full Character")
     print()
     print(" 12 - Display your generated character's full information")
+    print()
+    print(" 13 - Clear your saved stats to make a new character")
+    print()
+    print(" 14 - Save your character to a .txt file")
     print()
     choice = input(" Which option would you like to choose? ")
     if choice == "1":
@@ -65,17 +70,34 @@ def MainMenu():
         RandomizeWeaknessAll()
     elif choice == "12":
         DisplayFullStats()
+    elif choice == "13":
+        ClearSavedCharacter()
+    elif choice == "14":
+        SaveCharacter()
     else:
         print(" Incorrect choice, try again!")
         time.sleep(1)
         MainMenu()
+
+def NameCharacter():
+    global CharacterName
+    CharacterName = input(" Name your character: ")
+    MainMenu()
 
 def RandomizeAbilities():
     global GeneratedAbilitiesList
     GeneratedAbilitiesList = []
     NumberOfAbilities = int(input(" How many abilities do you want your character to have? (1-100, leave 0 for random) "))
     if NumberOfAbilities == 0:
-        NumberOfAbilities = random.randint(0,101)
+        NumberOfAbilities = random.randint(1,15)
+    elif NumberOfAbilities < 0:
+        print(" You must have at least one ability")
+        time.sleep(1)
+        MainMenu()
+    elif NumberOfAbilities > 100:
+        print(" You can at most have 100 abilities")
+        time.sleep(1)
+        MainMenu()
     GeneratedAbilities = 0
     AbilitiesDictionary = open("Abilities.txt", "r")
     Abilities = AbilitiesDictionary.read()
@@ -194,7 +216,15 @@ def RandomizeAbilitiesAll():
     GeneratedAbilitiesList = []
     NumberOfAbilities = int(input(" How many abilities do you want your character to have? (1-100, leave 0 for random) "))
     if NumberOfAbilities == 0:
-        NumberOfAbilities = random.randint(0,101)
+        NumberOfAbilities = random.randint(1,15)
+    elif NumberOfAbilities < 0:
+        print(" You must have at least one ability")
+        time.sleep(1)
+        MainMenu()
+    elif NumberOfAbilities > 100:
+        print(" You can at most have 100 abilities")
+        time.sleep(1)
+        MainMenu()
     GeneratedAbilities = 0
     AbilitiesDictionary = open("Abilities.txt", "r")
     Abilities = AbilitiesDictionary.read()
@@ -299,11 +329,11 @@ def RandomizeWeaknessAll():
     time.sleep(1)
     MainMenu()
 
+
 def DisplayFullStats():
     #AbilityList = ", ".join(GeneratedAbilitiesList)
     #WeaknessList = ", ".join(GeneratedWeaknessesList)
     print()
-    CharacterName = input(" Name you character: ")
     print()
     print(" The stats of your character", CharacterName, "are as follows:")
     print()
@@ -316,8 +346,60 @@ def DisplayFullStats():
     print(" Your characters Intelligence is", RandomizedIntelligence)
     print(" Your characters Stamina is", RandomizedStamina)
     print(" Your characters Range is", RandomizedRange)
-    print(" Your characters Weaknesses are ", GeneratedWeaknessesList)
-    time.sleep(10)
+    print(" Your characters Weaknesses are", GeneratedWeaknessesList)
+    print()
+    print(" Press any key to continue...")
+    m.getch()
     MainMenu()
 
-MainMenu()
+def ClearSavedCharacter():
+    global RandomizedStrength
+    global RandomizedDestruction
+    global RandomizedDurability
+    global RandomizedMoveSpeed
+    global RandomizedReactSpeed
+    global RandomizedIntelligence
+    global RandomizedStamina
+    global RandomizedRange
+    GeneratedAbilitiesList.clear()
+    GeneratedWeaknessesList.clear()
+    RandomizedStrength = None
+    RandomizedDestruction = None
+    RandomizedDurability = None
+    RandomizedMoveSpeed = None
+    RandomizedReactSpeed = None
+    RandomizedIntelligence = None
+    RandomizedStamina = None
+    RandomizedRange = None
+    print(" Your character has been cleared successfully")
+    time.sleep(1)
+    MainMenu()
+
+def SaveCharacter():
+    AbilityList = ", ".join(GeneratedAbilitiesList)
+    WeaknessList = ", ".join(GeneratedWeaknessesList)
+    with open(CharacterName + ".txt", "w") as fw:
+        fw.write("Character Sheet - "+CharacterName+'\n')
+    with open(CharacterName + ".txt", "a") as fa:
+        fa.write('\n')
+        fa.write("Abilities:"+'\n')
+        fa.write(AbilityList+'\n')
+        fa.write('\n')
+        fa.write("- Stats -"+'\n')
+        fa.write("Physical Strength: "+RandomizedStrength+'\n')
+        fa.write("Attack Potency/Destructive Capacity: "+RandomizedDestruction+'\n')
+        fa.write("Durability: "+RandomizedDurability+'\n')
+        fa.write("Movement Speed: "+RandomizedMoveSpeed+'\n')
+        fa.write("Reaction Speed: "+RandomizedReactSpeed+'\n')
+        fa.write("Intelligence: "+RandomizedIntelligence+'\n')
+        fa.write("Stamina: "+RandomizedStamina+'\n')
+        fa.write("Range: "+RandomizedRange+'\n')
+        fa.write("Weaknesses:"+'\n')
+        fa.write(WeaknessList)
+    print()
+    print(" Your character was saved to", CharacterName+".txt")
+    print(" Press any key to continue...")
+    m.getch()
+    MainMenu()
+
+NameCharacter()
