@@ -373,7 +373,7 @@ def ClearSavedCharacter():
     RandomizedRange = None
     print(" Your character has been cleared successfully")
     time.sleep(1)
-    MainMenu()
+    NameCharacter()
 
 def SaveCharacter():
     AbilityList = ", ".join(GeneratedAbilitiesList)
