@@ -1,7 +1,7 @@
 .git
 .vscode
 test.py
-TSWCharacterCreator.exe
+*.exe
 *.txt
 !Abilities.txt
 !Intelligence Tiers.txt
