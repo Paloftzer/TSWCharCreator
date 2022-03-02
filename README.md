@@ -8,7 +8,7 @@ A simple character generator for a "notepad" game me and my friend created based
         - [Terminology](#terminology)
             - [Ability Terminology](#ability-terminology)
             - [Physical Terminology](#physical-terminology)
-                - [Attack Potency/Destructive Capacity Terminology](#attack-potency/destructive-capacity-terminology)
+                - [Attack Potency/Destructive Capacity Terminology](#attack-potency-destructive-capacity-terminology)
                 - [Durability Terminology](#durability-terminology)
             - [Movement Speed Terminology](#movement-speed-terminology)
             - [Reaction Speed Terminology](#reaction-speed-terminology)
@@ -364,7 +364,7 @@ Absolute Infinity - *The highest possible tier, cannot be defeated by anyone wea
 
 For more detailed explanations please see [Top-Strongest Wikia Attack Potency/Destructive Capacity](https://topstrongest.fandom.com/wiki/Attack_Potency/Destructive_Capacity), it uses the same tiers but actually has an explanation
 
-### Attack Potency/Destructive Capacity Terminology
+### Attack Potency Destructive Capacity Terminology
 This uses roughly the same terminology as the physical strength list, but the scenarios might vary slightly. Overall the explanations from [Physical Terminology](##physical-terminology) should match these closely
 
 ### Durability Terminology
