@@ -286,12 +286,12 @@ Lazy
 The type noted on some abilities refers to the type mention on the Wikia [Top-Strongest Wikia](https://topstrongest.fandom.com/wiki/Top-Strongest_Wikia)
 
 ## Physical Terminology
-Flatland - *Below 3-dimensional, can create/destroy 0-dimensional to 2-dimensional objects/beings*
-Micro - *Can be destroyed by most just by accident, has a power output similar to bacteria*
-Dwarf - *A character so weak they can be crushed like an ant even by a regular human*
-Below Human - *Character with a similar capability to a average human child*
-Human - *Normal human capabilities*
-Street - *Peak human can take on multiple average humans*
+Flatland - *Below 3-dimensional, can create/destroy 0-dimensional to 2-dimensional objects/beings*  
+Micro - *Can be destroyed by most just by accident, has a power output similar to bacteria*  
+Dwarf - *A character so weak they can be crushed like an ant even by a regular human*  
+Below Human - *Character with a similar capability to a average human child*  
+Human - *Normal human capabilities*  
+Street - *Peak human can take on multiple average humans*  
 Superhuman - *Strong enough to easily break human bones*
 Superhuman+ - *Strong enough to put a dent into a concrete wall*
 Wall - *Characters strong enough to break walls and trees with regular punches*
