@@ -365,10 +365,10 @@ Absolute Infinity - *The highest possible tier, cannot be defeated by anyone wea
 For more detailed explanations please see [Top-Strongest Wikia Attack Potency/Destructive Capacity](https://topstrongest.fandom.com/wiki/Attack_Potency/Destructive_Capacity), it uses the same tiers but actually has an explanation
 
 ### Attack Potency Destructive Capacity Terminology
-This uses roughly the same terminology as the physical strength list, but the scenarios might vary slightly. Overall the explanations from [Physical Terminology](##physical-terminology) should match these closely
+This uses roughly the same terminology as the physical strength list, but the scenarios might vary slightly. Overall the explanations from [Physical Terminology](#physical-terminology) should match these closely
 
 ### Durability Terminology
-This is the equivalent of the [Physical Terminology](##physical-terminology) but used as a measurement of how much damage you can take instead of how much damage you can deal
+This is the equivalent of the [Physical Terminology](#physical-terminology) but used as a measurement of how much damage you can take instead of how much damage you can deal
 
 ## Movement Speed Terminology
 Stationary - *So slow that any movements are invisible to the naked eye* **0 m/s**  
@@ -410,7 +410,7 @@ Omnipresent - *You are so fast that it's more a state of existence than actual s
 Nigh-Omnipresence - *You can be everywhere at anytime*  
 
 ## Reaction Speed Terminology
-The same speeds as [Movement Speed Terminology](##movement-speed-terminology) just used for reaction speed rather than movement speed
+The same speeds as [Movement Speed Terminology](#movement-speed-terminology) just used for reaction speed rather than movement speed
 
 ## Intelligence Terminology
 None - *Beings which lack the ability to think*  
