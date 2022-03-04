@@ -9,7 +9,8 @@ SpeedList = ["Stationary,Sub-Human,Human,High Human,Peak Human,Superhuman,Faster
 IntelligenceList = ["None,Animal-like,Very low,Low,Below average,Average,Above average,High,Very high,Genius,Super genius,Hyper genius,Cosmic genius,Nigh omniscient,Omniscient"]
 StaminaList = ["None,Very low,Low,Below average,Average,Above average,High,Very High,Extremely high,Nigh limitless,Limitless"]
 RangeList = ["Melee,Extended Melee,Several meters,Tens of meters,Hundreds of meters,Kilometers,Tens of Kilometers,Hundreds of Kilometers,Thousands of Kilometers,Planetary Range,Stellar,Solar system,Multi solar system,Galactic,Multi galactic,Universal,High-Universal,Universal+,Low Multiversal,Multiversal,High Multiversal,Hyper Dimensional,High Hyper Dimensional,Transcendent,Absolute Infinity"]
-WeaknessesList = ["Slow Start,Heavy Strain,Low Temper,Ability Backlash,Arrogant Nature,Asthma,Easily distracted,Flat Earther,Grounded,Fear of Heights,Social Anxiety,Lazy,Unstable abilities"]
+WeaknessesList = ["Slow Start,Heavy Strain,Low Temper,Ability Backlash,Arrogant Nature,Asthma,Easily distracted,Flat Earther,Grounded,Fear of Heights,Social Anxiety,Lazy,Unstable abilities,Gambling addict,"]
+ItemList = ["Senzu Bean,Power Pole,Z Sword,Infinity Gauntlet,Death Note,Excalibur,Durandal,Mons Meg,Trident,Mjolnir,Gungnir,Armor of Achilles,Pridwen,Aegis,Infinite Quiver,Gun,Talaria,Arrow of Brahma,Asi,Sharanga,Gram,Gae Bulg,Muramasa,Kusanagi,Colada,Panacea,The Holy Grail,Kavacha,Helmet of Rostam,Tarnhelm,Cap of Invisibility,Green Armor,Crown of Immortality,Cloud-stepping Boots"]
 
 def MainMenu():
     print("","-"*72)
