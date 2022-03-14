@@ -3,10 +3,4 @@
 test.py
 *.exe
 *.txt
-!Abilities.txt
-!Intelligence Tiers.txt
-!Range Tiers.txt
-!Speed Tiers.txt
-!Stamina Tiers.txt
-!Strength Tiers.txt
-!Weaknesses.txt
+Characters/

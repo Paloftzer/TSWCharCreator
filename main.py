@@ -1,7 +1,12 @@
 import random
 import time
 import msvcrt as m
-import pygame # Currently unused, going to hopefully make a true ui for it with pygame later
+import os
+import os.path
+import pygame # Currently unused, going to hopefully make a true ui for it with pygame 
+
+os.makedirs("Characters")
+save_path = "./Characters/"
 
 AbilitiesList = ["Absolute Zero,Power Absorption,Energy Absorption,Life-Force Absorption,Biological Absorption,Abstract Existence (Type 1),Abstract Existence (Type 2),Time Paradox Immunity (Acausality),Temporal Singularity (Acausality),Temporal Permanence (Acausality),Irregular Causality (Acausality),Causality Transcendence (Acausality),Acid Manipulation,Acupuncture,Biological Adaptation,Physiological Adaptation,Psychological Adaptation,Technical Adaptation,Informational Adaptation,Afterimages,Age Manipulation,Manipulation of Animals,Manipulation of Mythical Creatures,Astral Projection,Attack Reflection,Explosive Aura,Overwhelming Aura,Fear-inducing Aura,Rage-inducing Aura,Materialized Aura,Catastrophe-inducing Aura,Charismatic Aura,Avatar Creation,Berserk Mode,Battle Field Removal,Biological Manipulation,Blood Manipulation as the Liquid,Blood Manipulation as a Source of Energy,Blood Manipulation as an Information Object,Blood Magic,Body Control (Basic Functions),Body Control (Advanced Control),Body Control (Control of the Body),Body Control (Control of Cells),Body Control (Control of Microparticles),Causality Manipulation,Clairvoyance,Conceptual Manipulation,Corruption (Type 1),Corruption (Type 2),Corruption (Type 3),Creation,Crystal Manipulation,Curse Manipulation,Damage Boost,Damage Reduction,Danmaku,Darkness Manipulation,Death Manipulation,Devil Physiology,Dream Eaters Physiology,Dream Manipulation,Split Duplication,One to One Duplication,Durability Negation,Earthbending,Earth Element Control,Earth Release,Geokinesis,Terrakinesis,Electric/Current manipulation,Electrokinesis,Fulgurkinesis,Electric Charge Manipulation,Lightning Bending,Lightning Element Control,Lightning Release,Elemental Manipulation,Energy Manipulation,Energy Projection,Enhanced Awareness,Enhanced Hearing,Enhanced Vision,Enhanced Smell,Enhanced Taste,Enhanced Touch,Enhanced Sixth,Extra Senses,Existence Erasure,Explosion Manipulation,Fate Manipulation,Agnikinesis,Fire Element Control,Fire Release,Firebending,Flame Control,Ignikinesis,Pyrokinesis,Pseudo Flight,True Flight,Levitation,Forcefield,Fourth Wall Awareness,Fusionism,Negative Gravity Manipulation,Positive Gravity Manipulation,Full Gravity Manipulation,Healing (Weak),Healing (Normal),Healing (Strong),Healing (Fully),Heartless Physiology,Heat Manipulation,Hyper-Dimensional,Beyond-Dimensional,Higher Dimensional Manipulation,Holy Manipulation,Homing Attack,Ice Manipulation,Illusion Creation,Eternal Life,Immortality without Regeneration,Immortality via Regeneration,Immortality via Self-Resurrection,Immortality via Replacements,Parasitic,Undead,Reliant Immortality,Transcendental Immortality,Meta-Immortality,Deathless Immortality,Pseudo Intangibility,Spatial Intangibility,Phasing,Intangibility,Invisibility,Invulnerability,Law Manipulation,Life Manipulation,Light Manipulation,Longevity,Magic,Magma Manipulation,Magnetism Manipulation,Martial Arts,Matter Manipulation,Metal Manipulation,Mind Manipulation,Necromancy,Noble Physiology,Nobody Physiology,Non-Corporeal,Non-Physical Interaction,Omnipotence,Pain Manipulation,Perception Manipulation,Petrification,Plant Manipulation,Plot Manipulation,Pocket Reality Manipulation,Poison Manipulation,Possession,Power Bestowal,Power Mimicry,Power Nullification,Precognition,Presence Concealment,Probability Manipulation,Quantum Manipulation,Radiation Manipulation,Reactive Evolution,Reality Warping,Regeneration,Elemental Resistance,Energy Resistance,Mental Resistance,Resurrection,Retrocognition,Sand Manipulation,Sealing,Self-Sustenance,Shapeshifting,Size Manipulation,Soul Manipulation,Sound Manipulation,Spatial Manipulation,Star Platinum,The World,King Crimson,Killer Queen,Gold Experience,Crazy Diamond,Statistics Amplification,Statistics Reduction,Superhuman Physical Characteristics,Technology Manipulation,Telekinesis,Telepathy,Teleportation,Thread Manipulation,Time Stop,Time Rewind,Time Skip,Speed up Time,Slow down Time,Toon Force,Undead Physiology,Underwater Breathing,Vector Manipulation,Void Manipulation,Aquakinesis,Hydrokinesis,Water Element Control,Water Release,Waterbending,Weapon Mastery,Weather Manipulation,Wind Manipulation"]
 StrengthList = ["Flatland,Micro,Dwarf,Below Human,Human,Street,Superhuman,Superhuman+,Wall,Wall+,Small Building,Small Building+,Building,Building+,Large Building,Large Building+,City Block,City Block+,Multi Block,Multi Block+,Town,Town+,City,City+,Mountain,Mountain+,Island,Island+,Country,Country+,Large Country/Small Continent,Large Country+/Small Continent+,Continent,Continent+,Multi-Continent,Multi-Continent+,Moon,Moon+,Small Planet,Small Planet+,Planet,Planet+,Large Planet,Large Planet+,Small Star,Small Star+,Star,Star+,Large Star,Large Star+,Solar System,Solar System+,Multi-Solar System,Multi-Solar System+,Galaxy,Galaxy+,Multi-Galaxy,Multi-Galaxy+,Low Universe,Universe,High Universe,Universe+,Low Multiverse,Low Multiverse+,Multiverse,Multiverse+,High Multiverse,High Multiverse+,Hyper Dimensional,Hyper Dimensional+,High Hyper Dimensional,High Hyper Dimensional+,Transcendent,Transcendent+,Absolute Infinity"]
@@ -506,11 +511,12 @@ def ClearSavedCharacter():
     NameCharacter()
 
 def SaveCharacter():
+    CompletePath = os.path.join(save_path, CharacterName+".txt")
     AbilityList = ", ".join(GeneratedAbilitiesList)
     WeaknessList = ", ".join(GeneratedWeaknessesList)
-    with open(CharacterName + ".txt", "w") as fw:
+    with open(CompletePath, "w") as fw:
         fw.write("Character Sheet - "+CharacterName+'\n')
-    with open(CharacterName + ".txt", "a") as fa:
+    with open(CompletePath, "a") as fa:
         fa.write('\n')
         fa.write("Abilities:"+'\n')
         fa.write(AbilityList+'\n')
@@ -526,8 +532,9 @@ def SaveCharacter():
         fa.write("Range: "+RandomizedRange+'\n')
         fa.write("Weaknesses:"+'\n')
         fa.write(WeaknessList)
+        fa.close()
     print()
-    print(" Your character was saved to", CharacterName+".txt")
+    print(" Your character was saved to", CompletePath)
     print(" Press any key to continue...")
     m.getch()
     MainMenu()
