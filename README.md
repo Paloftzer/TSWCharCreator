@@ -19,14 +19,105 @@ A simple character generator for a "notepad" game me and my friend created based
 
 # Ability Explanation
 
+
+
+## Elemental abilities
+Elemental Manipulation
+Heat Manipulation
+Magma Manipulation
+Darkness Manipulation
+Light Manipulation
+Holy Manipulation
+Metal Manipulation
+Magnetism Manipulation
+Radiation Manipulation
+Elemental Resistance
+Plant Manipulation
+Sound Manipulation
+Technology Manipulation
+Thread Manipulation
+## Fire
+Agnikinesis
+Fire Element Control
+Fire Release
+Firebending
+Flame Control
+Ignikinesis
+Pyrokinesis
+## Explosion
+Explosion Manipulation
+## Water
+Aquakinesis
+Hydrokinesis
+Water Element Control
+Water Release
+Waterbending
+Underwater Breathing
 ## Ice
 Absolute Zero
+Ice Manipulation
+## Acid
+Acid Manipulation
+Poison Manipulation
+## Earth 
+Earthbending
+Earth Element Control
+Earth Release
+Geokinesis
+Terrakinesis
+Crystal Manipulation
+Petrification
+Sand Manipulation
+## Air and wind
+Wind Manipulation
+Weather Manipulation
+## Electricity
+Electric/Current manipulation
+Electrokinesis
+Fulgurkinesis
+Electric Charge Manipulation
+Lightning Bending
+Lightning Element Control
+Lightning Release
+## Magic
+Magic
+Telekinesis
+Sealing
+
+## Space and Time
+Pocket Reality Manipulation
+Quantum Manipulation
+Reality Warping
+## Time
+Age Manipulation
+Time Stop
+Time Rewind
+Time Skip
+Speed up Time
+Slow down Time
+Longevity
+Retrocognition
+Precognition
+Eternal Life
+## Space
+Spatial Manipulation
+## Gravity
+Negative Gravity Manipulation
+Positive Gravity Manipulation
+Full Gravity Manipulation
+## Matter
+Creation
+Existence Erasure
+Void Manipulation
+Matter Manipulation
+
 
 ## Absorption
 Power Absorption
 Energy Absorption
 Life-Force Absorption
 Biological Absorption
+Fusionism
 
 ## Types of Existence
 Abstract Existence (Type 1)
@@ -39,32 +130,31 @@ Temporal Permanence (Acausality)
 Irregular Causality (Acausality)
 Causality Transcendence (Acausality)
 
-## Acid
-Acid Manipulation
-
-## Acupuncture
-Acupuncture
-
 ## Adaptation
 Biological Adaptation
 Physiological Adaptation
 Psychological Adaptation
 Technical Adaptation
 Informational Adaptation
-
-## Time
-Age Manipulation
+Reactive Evolution
 
 ## Duplication
 Afterimages
+Split Duplication
+One to One Duplication
 
 ## Beasts
 Manipulation of Animals
 Manipulation of Mythical Creatures
 
+## Transportation
+Pseudo Flight
+True Flight
+Levitation
+Teleportation
+Battle Field Removal
 
-Astral Projection
-Attack Reflection
+## Auras
 Explosive Aura
 Overwhelming Aura
 Fear-inducing Aura
@@ -72,97 +162,8 @@ Rage-inducing Aura
 Materialized Aura
 Catastrophe-inducing Aura
 Charismatic Aura
-Avatar Creation
-Berserk Mode
-Battle Field Removal
-Biological Manipulation
-Blood Manipulation as the Liquid
-Blood Manipulation as a Source of Energy
-Blood Manipulation as an Information Object
-Blood Magic
-Body Control (Basic Functions)
-Body Control (Advanced Control)
-Body Control (Control of the Body)
-Body Control (Control of Cells)
-Body Control (Control of Microparticles)
-Causality Manipulation
-Clairvoyance
-Conceptual Manipulation
-Corruption (Type 1)
-Corruption (Type 2)
-Corruption (Type 3)
-Creation
-Crystal Manipulation
-Curse Manipulation
-Damage Boost
-Damage Reduction
-Danmaku
-Darkness Manipulation
-Death Manipulation
-Devil Physiology
-Dream Eaters Physiology
-Dream Manipulation
-Split Duplication
-One to One Duplication
-Durability Negation
-Earthbending
-Earth Element Control
-Earth Release
-Geokinesis
-Terrakinesis
-Electric/Current manipulation
-Electrokinesis
-Fulgurkinesis
-Electric Charge Manipulation
-Lightning Bending
-Lightning Element Control
-Lightning Release
-Elemental Manipulation
-Energy Manipulation
-Energy Projection
-Enhanced Awareness
-Enhanced Hearing
-Enhanced Vision
-Enhanced Smell
-Enhanced Taste
-Enhanced Touch
-Enhanced Sixth
-Extra Senses
-Existence Erasure
-Explosion Manipulation
-Fate Manipulation
-## Fire
-Agnikinesis
-Fire Element Control
-Fire Release
-Firebending
-Flame Control
-Ignikinesis
-Pyrokinesis
 
-Pseudo Flight
-True Flight
-Levitation
-Forcefield
-Fourth Wall Awareness
-Fusionism
-Negative Gravity Manipulation
-Positive Gravity Manipulation
-Full Gravity Manipulation
-Healing (Weak)
-Healing (Normal)
-Healing (Strong)
-Healing (Fully)
-Heartless Physiology
-Heat Manipulation
-Hyper-Dimensional
-Beyond-Dimensional
-Higher Dimensional Manipulation
-Holy Manipulation
-Homing Attack
-Ice Manipulation
-Illusion Creation
-Eternal Life
+## Immortality
 Immortality without Regeneration
 Immortality via Regeneration
 Immortality via Self-Resurrection
@@ -173,61 +174,42 @@ Reliant Immortality
 Transcendental Immortality
 Meta-Immortality
 Deathless Immortality
-Pseudo Intangibility
-Spatial Intangibility
-Phasing
-Intangibility
-Invisibility
-Invulnerability
-Law Manipulation
-Life Manipulation
-Light Manipulation
-Longevity
-Magic
-Magma Manipulation
-Magnetism Manipulation
-Martial Arts
-Matter Manipulation
-Metal Manipulation
-Mind Manipulation
-Necromancy
-Noble Physiology
-Nobody Physiology
-Non-Corporeal
-Non-Physical Interaction
-Omnipotence
-Pain Manipulation
-Perception Manipulation
-Petrification
-Plant Manipulation
-Plot Manipulation
-Pocket Reality Manipulation
-Poison Manipulation
-Possession
-Power Bestowal
-Power Mimicry
-Power Nullification
-Precognition
-Presence Concealment
-Probability Manipulation
-Quantum Manipulation
-Radiation Manipulation
-Reactive Evolution
-Reality Warping
-Regeneration
-Elemental Resistance
+
+## Blood
+Blood Manipulation as the Liquid
+Blood Manipulation as a Source of Energy
+Blood Manipulation as an Information Object
+Blood Magic
+
+## Projectile
+Danmaku
+Homing Attack
+
+## Energy
+Energy Manipulation
+Energy Projection
 Energy Resistance
-Mental Resistance
-Resurrection
-Retrocognition
-Sand Manipulation
-Sealing
-Self-Sustenance
-Shapeshifting
-Size Manipulation
-Soul Manipulation
-Sound Manipulation
-Spatial Manipulation
+
+## Senses
+Enhanced Awareness
+Enhanced Hearing
+Enhanced Vision
+Enhanced Smell
+Enhanced Taste
+Enhanced Touch
+Enhanced Sixth
+Extra Senses
+Clairvoyance
+
+## Healing
+Healing (Weak)
+Healing (Normal)
+Healing (Strong)
+Healing (Fully)
+Regeneration
+
+## Physical Projections
+Avatar Creation
 ## Stands
 Star Platinum
 The World
@@ -236,49 +218,140 @@ Killer Queen
 Gold Experience
 Crazy Diamond
 
+
+## Self?
+Acupuncture
+Damage Boost
+Damage Reduction
+Attack Reflection
+Forcefield
+Martial Arts
+Phasing
+Possession
+Power Bestowal
+Power Mimicry
+Power Nullification
+Presence Concealment
+Invulnerability
 Statistics Amplification
 Statistics Reduction
-Superhuman Physical Characteristics
-Technology Manipulation
-Telekinesis
-Telepathy
-Teleportation
-Thread Manipulation
-Time Stop
-Time Rewind
-Time Skip
-Speed up Time
-Slow down Time
-Toon Force
-Undead Physiology
-Underwater Breathing
-Vector Manipulation
-Void Manipulation
-Aquakinesis
-Hydrokinesis
-Water Element Control
-Water Release
-Waterbending
+Omnipotence
+Self-Sustenance
+Durability Negation
+Mental Resistance
 Weapon Mastery
-Weather Manipulation
-Wind Manipulation
+Telepathy
+Body Control (Basic Functions)
+Body Control (Advanced Control)
+Body Control (Control of the Body)
+Body Control (Control of Cells)
+Body Control (Control of Microparticles)
+Non-Physical Interaction
+## Intangibility
+Pseudo Intangibility
+Spatial Intangibility
+Intangibility
+## Invisibility
+Invisibility
+## Transformations
+Berserk Mode
+Shapeshifting
+Size Manipulation
+## Physical Characteristics
+Devil Physiology
+Dream Eaters Physiology
+Heartless Physiology
+Noble Physiology
+Nobody Physiology
+Undead Physiology
+Superhuman Physical Characteristics
+Non-Corporeal
+Corruption (Type 1)
+Corruption (Type 2)
+Corruption (Type 3)
+
+
+
+## Relative Concepts
+Vector Manipulation
+Causality Manipulation
+Conceptual Manipulation
+Fate Manipulation
+Fourth Wall Awareness
+Law Manipulation
+Probability Manipulation
+Illusion Creation
+Hyper-Dimensional
+Beyond-Dimensional
+Higher Dimensional Manipulation
+Plot Manipulation
+Toon Force
+Perception Manipulation
+Mind Manipulation
+Pain Manipulation
+
+
+## Life
+Life Manipulation
+Soul Manipulation
+Astral Projection
+Death Manipulation
+Biological Manipulation
+Curse Manipulation
+Dream Manipulation
+Necromancy
+Resurrection
+
 
 # Weakness Explanation
-Slow Start
-Heavy Strain
-Low Temper
-Ability Backlash
-Arrogant Nature
-Asthma
-Easily distracted
-Flat Earther
-Grounded
-Fear of Heights
-Social Anxiety
-Lazy
+Slow Start - *Your body takes a bit of time before you can start using all of your power*
+Heavy Strain - *Your abilities take a big tull on your stamina*
+Low Temper - *Your character has a low temper and is prone to easily get angry and violent*
+Ability Backlash - *Your abilities are too powerful for your body, using an ability will have a huge backlash on your body, shattering and breaking your bones*
+Arrogant Nature - *Your character has an arrogant nature and is prone to underestimate their opponent and will often let them attack and power up*
+Asthma - *Your character uses more stamina wile running and can sometimes collapse*
+Easily distracted - *Your character has a low focus and is easily distracted by their surroundings making them an easy target to hit*
+Flat Earther - *Your character thinks the earth is flat and therefore cannot navigate through space*
+Grounded - *Your character cannot leave the planet*
+Fear of Heights - *Your character has a fear of heights so they have a hard time with flying*
+Social Anxiety - *Your character preforms worse if they are fighting in a team*
+Lazy - *Your character is lazy and wont bother using all of their power*
 
 # Items and their abilities
-
+Senzu Bean - *A magical bean that heals all wounds and recovers all lost stamina*
+Power Pole - *A magical weapon that can extend an infinite amount*
+Z Sword - *A mystical sword with some kind of power inside of it*
+Infinity Gauntlet - *A gauntlet with all of the six infinity stones, time, power, space, reality, soul, and mind*
+Death Note - *A notebook with the powers of a shinigami, write down anyone's name and they will die*
+Excalibur - *Excalibur the legendary sword, it is said whoever wealds the sword will be king*
+Durandal - *A legendary sword said to be unbreakable*
+Mons Meg - *A 6.6 ton cannon with a barrel length of 2.8m, one cannon ball weighs 175kg*
+Trident - *The trident of Poseidon can control and create water*
+Mjolnir - *Mjolnir can summon storms and lightning*
+Gungnir - *The spear of Odin*
+Armor of Achilles - **
+Pridwen - *The shield of king Arthur*
+Aegis - *The shield of Zeus*
+Infinite Quiver - *An infinite quiver of arrows*
+Gun - *Glock 19*
+Talaria - *The sandals of the god Hermes*
+Arrow of Brahma - *The arrow of the hindu god Ramachandra*
+Asi - **
+Sharanga
+Gram
+Gae Bulg
+Muramasa
+Kusanagi
+Colada
+Panacea
+The Holy Grail
+Kavacha
+Helmet of Rostam
+Tarnhelm
+Cap of Invisibility
+Green Armor
+Crown of Immortality
+Cloud-stepping Boots
 
 # Terminology
 
