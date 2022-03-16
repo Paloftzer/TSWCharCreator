@@ -1,6 +1,7 @@
 .git
 .vscode
-test.py
+*.py
 *.exe
 *.txt
 Characters/
+!main.py
