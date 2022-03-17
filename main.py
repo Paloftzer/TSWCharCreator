@@ -12,6 +12,8 @@ else:
 
 save_path = "./Characters/"
 
+GeneratedWeaknesses = 0
+
 GeneratedAbilitiesList = []
 GeneratedWeaknessesList = []
 RandomizedStrength = None
@@ -329,31 +331,37 @@ def RandomizeRange():
     MainMenu()
 
 def RandomizeWeakness():
-    GeneratedWeaknesses = 0
-    if not GeneratedWeaknessesList:
-        NumberOfWeaknesses = random.randint(0,4)
-        try:
-            WeaknessDictionary = open("Weaknesses.txt", "r")
-        except:
-            textfile = open("Weaknesses.txt", "w")
-            for element in WeaknessesList:
-                textfile.write(element)
-            textfile.close()
-        finally:
-            WeaknessDictionary = open("Weaknesses.txt", "r")
-        Weakness = WeaknessDictionary.read()
-        ListOfTiers = Weakness.split(",")
-        if NumberOfWeaknesses == 0:
-            print(" You have no Weaknesses!")
-        else:
-            while GeneratedWeaknesses < NumberOfWeaknesses:
-                RandomizedWeaknesses = random.choice(ListOfTiers)
-                ListOfTiers.remove(RandomizedWeaknesses)
-                print(" Your character's Weakness is:", RandomizedWeaknesses)
-                GeneratedWeaknessesList.append(RandomizedWeaknesses)
+    global GeneratedWeaknesses
+    if GeneratedWeaknesses == 0:
+        if not GeneratedWeaknessesList:
+            NumberOfWeaknesses = random.randint(0,4)
+            try:
+                WeaknessDictionary = open("Weaknesses.txt", "r")
+            except:
+                textfile = open("Weaknesses.txt", "w")
+                for element in WeaknessesList:
+                    textfile.write(element)
+                textfile.close()
+            finally:
+                WeaknessDictionary = open("Weaknesses.txt", "r")
+            Weakness = WeaknessDictionary.read()
+            ListOfTiers = Weakness.split(",")
+            if NumberOfWeaknesses == 0:
+                print(" You have no Weaknesses!")
                 GeneratedWeaknesses += 1
-        time.sleep(1)
-        MainMenu()
+            else:
+                while GeneratedWeaknesses < NumberOfWeaknesses:
+                    RandomizedWeaknesses = random.choice(ListOfTiers)
+                    ListOfTiers.remove(RandomizedWeaknesses)
+                    print(" Your character's Weakness is:", RandomizedWeaknesses)
+                    GeneratedWeaknessesList.append(RandomizedWeaknesses)
+                    GeneratedWeaknesses += 1
+            time.sleep(1)
+            MainMenu()
+        else:
+            print(" You have already generated weaknesses!")
+            time.sleep(1)
+            MainMenu()
     else:
         print(" You have already generated weaknesses!")
         time.sleep(1)
@@ -626,6 +634,8 @@ def ClearSavedCharacter():
     global RandomizedIntelligence
     global RandomizedStamina
     global RandomizedRange
+    global GeneratedWeaknesses
+    GeneratedWeaknesses = 0
     GeneratedAbilitiesList.clear()
     GeneratedWeaknessesList.clear()
     RandomizedStrength = None
