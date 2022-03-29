@@ -19,8 +19,6 @@ A simple character generator for a "notepad" game me and my friend created based
 
 # Ability Explanation
 
-
-
 ## Elemental abilities
 Elemental Manipulation
 Heat Manipulation
@@ -36,6 +34,7 @@ Plant Manipulation
 Sound Manipulation
 Technology Manipulation
 Thread Manipulation
+
 ## Fire
 Agnikinesis
 Fire Element Control
@@ -44,8 +43,10 @@ Firebending
 Flame Control
 Ignikinesis
 Pyrokinesis
+
 ## Explosion
 Explosion Manipulation
+
 ## Water
 Aquakinesis
 Hydrokinesis
@@ -53,12 +54,15 @@ Water Element Control
 Water Release
 Waterbending
 Underwater Breathing
+
 ## Ice
 Absolute Zero
 Ice Manipulation
+
 ## Acid
 Acid Manipulation
 Poison Manipulation
+
 ## Earth 
 Earthbending
 Earth Element Control
@@ -68,9 +72,11 @@ Terrakinesis
 Crystal Manipulation
 Petrification
 Sand Manipulation
+
 ## Air and wind
 Wind Manipulation
 Weather Manipulation
+
 ## Electricity
 Electric/Current manipulation
 Electrokinesis
@@ -79,6 +85,7 @@ Electric Charge Manipulation
 Lightning Bending
 Lightning Element Control
 Lightning Release
+
 ## Magic
 Magic
 Telekinesis
@@ -88,6 +95,7 @@ Sealing
 Pocket Reality Manipulation
 Quantum Manipulation
 Reality Warping
+
 ## Time
 Age Manipulation
 Time Stop
@@ -99,18 +107,20 @@ Longevity
 Retrocognition
 Precognition
 Eternal Life
+
 ## Space
 Spatial Manipulation
+
 ## Gravity
 Negative Gravity Manipulation
 Positive Gravity Manipulation
 Full Gravity Manipulation
+
 ## Matter
 Creation
 Existence Erasure
 Void Manipulation
 Matter Manipulation
-
 
 ## Absorption
 Power Absorption
@@ -210,6 +220,7 @@ Regeneration
 
 ## Physical Projections
 Avatar Creation
+
 ## Stands
 Star Platinum
 The World
@@ -217,7 +228,6 @@ King Crimson
 Killer Queen
 Gold Experience
 Crazy Diamond
-
 
 ## Self?
 Acupuncture
@@ -247,16 +257,20 @@ Body Control (Control of the Body)
 Body Control (Control of Cells)
 Body Control (Control of Microparticles)
 Non-Physical Interaction
+
 ## Intangibility
 Pseudo Intangibility
 Spatial Intangibility
 Intangibility
+
 ## Invisibility
 Invisibility
+
 ## Transformations
 Berserk Mode
 Shapeshifting
 Size Manipulation
+
 ## Physical Characteristics
 Devil Physiology
 Dream Eaters Physiology
@@ -269,8 +283,6 @@ Non-Corporeal
 Corruption (Type 1)
 Corruption (Type 2)
 Corruption (Type 3)
-
-
 
 ## Relative Concepts
 Vector Manipulation
@@ -290,7 +302,6 @@ Perception Manipulation
 Mind Manipulation
 Pain Manipulation
 
-
 ## Life
 Life Manipulation
 Soul Manipulation
@@ -302,20 +313,21 @@ Dream Manipulation
 Necromancy
 Resurrection
 
-
 # Weakness Explanation
 Slow Start - *Your body takes a bit of time before you can start using all of your power*
-Heavy Strain - *Your abilities take a big tull on your stamina*
+Heavy Strain - *Your abilities take a big toll on your stamina*
 Low Temper - *Your character has a low temper and is prone to easily get angry and violent*
 Ability Backlash - *Your abilities are too powerful for your body, using an ability will have a huge backlash on your body, shattering and breaking your bones*
 Arrogant Nature - *Your character has an arrogant nature and is prone to underestimate their opponent and will often let them attack and power up*
 Asthma - *Your character uses more stamina wile running and can sometimes collapse*
 Easily distracted - *Your character has a low focus and is easily distracted by their surroundings making them an easy target to hit*
 Flat Earther - *Your character thinks the earth is flat and therefore cannot navigate through space*
-Grounded - *Your character cannot leave the planet*
+Grounded - *Your character cannot leave the ground*
 Fear of Heights - *Your character has a fear of heights so they have a hard time with flying*
 Social Anxiety - *Your character preforms worse if they are fighting in a team*
 Lazy - *Your character is lazy and wont bother using all of their power*
+Unstable Abilities - *Your character is prone to use their abilities randomly and out of their control*
+Gambling Addict - *Your character is addicted to gambling*
 
 # Items and their abilities
 Senzu Bean - *A magical bean that heals all wounds and recovers all lost stamina*
@@ -323,35 +335,34 @@ Power Pole - *A magical weapon that can extend an infinite amount*
 Z Sword - *A mystical sword with some kind of power inside of it*
 Infinity Gauntlet - *A gauntlet with all of the six infinity stones, time, power, space, reality, soul, and mind*
 Death Note - *A notebook with the powers of a shinigami, write down anyone's name and they will die*
-Excalibur - *Excalibur the legendary sword, it is said whoever wealds the sword will be king*
+Excalibur - *Excalibur the legendary sword, it is said whoever wields the sword will be king*
 Durandal - *A legendary sword said to be unbreakable*
 Mons Meg - *A 6.6 ton cannon with a barrel length of 2.8m, one cannon ball weighs 175kg*
-Trident - *The trident of Poseidon can control and create water*
+Trident - *The trident of Poseidon, which can control and create water*
 Mjolnir - *Mjolnir can summon storms and lightning*
 Gungnir - *The spear of Odin*
-Armor of Achilles - **
+Armor of Achilles - *The armor of achille's decreases enemy morale while increasing the morale of your allies*
 Pridwen - *The shield of king Arthur*
 Aegis - *The shield of Zeus*
 Infinite Quiver - *An infinite quiver of arrows*
 Gun - *Glock 19*
 Talaria - *The sandals of the god Hermes*
 Arrow of Brahma - *The arrow of the hindu god Ramachandra*
-Asi - **
-Sharanga
-Gram
-Gae Bulg
-Muramasa
-Kusanagi
-Colada
-Panacea
-The Holy Grail
-Kavacha
-Helmet of Rostam
-Tarnhelm
-Cap of Invisibility
-Green Armor
-Crown of Immortality
-Cloud-stepping Boots
+Asi - *A legendary divine lotus sword created in ancient times as the first weapon to destroy the enemies of the gods*
+Sharanga - *The bow of the Hindu God Vishnu*
+Gram - *Sword of the hero Sigurd from Norse mythology, also known as Nothung in the Ring cycle*
+Gae Bulg - *Spear of Cúchulainn; made from the bones of a sea monster*
+Muramasa - *The katana forged by famous swordsmith Muramasa, it was rumored that it was a demonic sword that can curse the wielder to murder people*
+Kusanagi - *Legendary Japanese sword*
+Colada - *The other sword of El Cid, its power depends on the warrior that wields it*
+Panacea - *A magical pill that can heal and restore any physical injuries*
+The Holy Grail - *The holy grail can provide, eternal youth and can heal the user*
+Kavacha - *Hindu armor*
+Tarnhelm - *Similar to the Cap of Invisibility from greek mythology, it also provides invisibility*
+Cap of Invisibility - *the Cap of Hades, provides invisibility*
+Green Armor - *From norse mythology, protects the wearer from phsycial injuries*
+Crown of Immortality - *Makes the wearer immortal*
+Cloud-stepping Boots - *Allows you to walk on air*
 
 # Terminology
 
